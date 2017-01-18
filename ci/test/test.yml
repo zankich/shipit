@@ -10,7 +10,7 @@ inputs:
 - name: shipit
 
 run:
-  path: shipit/ci/test
+  path: shipit/ci/test/test
 
 params:
   SOMETHING:
