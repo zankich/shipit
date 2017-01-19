@@ -1,3 +1,9 @@
 #!/bin/bash -exu
 
-: ${SOMETHING?}
+function main() {
+  pushd shipit
+    go test -v ./...
+  popd
+}
+
+main

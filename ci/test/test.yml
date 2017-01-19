@@ -4,13 +4,10 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: ubuntu:trusty
+    repository: golang:latest
 
 inputs:
 - name: shipit
 
 run:
   path: shipit/ci/test/test
-
-params:
-  SOMETHING:
